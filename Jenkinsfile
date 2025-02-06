@@ -14,6 +14,7 @@ pipeline {
           mkdir -p test
           echo "stage branch"
         '''
+      }
     }
       stage('stage branch') {
       agent {
@@ -28,6 +29,7 @@ pipeline {
           cd configurations
           echo "main branch"
         '''
+      }
     }
   }
 }
