@@ -16,7 +16,7 @@ pipeline {
         '''
       }
     }
-      stage('stage branch') {
+      stage('main branch') {
       agent {
         label 'azure-linux'
       }
