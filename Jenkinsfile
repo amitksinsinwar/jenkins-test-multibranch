@@ -17,7 +17,7 @@ pipeline {
     }
       stage('stage branch') {
       agent {
-        label 'test-ccpay'
+        label 'azure-linux'
       }
       when {
         branch 'main'
